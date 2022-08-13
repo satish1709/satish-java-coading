@@ -24,4 +24,5 @@ public class Employee {
 	private String city;
 	private String company;
 	private Integer number;
+	private Double empGrade;
 }

@@ -23,6 +23,4 @@ public class Employee {
 	private Long salary;
 	private String city;
 	private String company;
-	private Long mobNumber;
-	private Integer grade;
 }

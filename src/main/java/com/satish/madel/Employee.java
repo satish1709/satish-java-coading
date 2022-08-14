@@ -22,6 +22,4 @@ public class Employee {
 	private String dept;
 	private Long salary;
 	private String city;
-	private String company;
-	private double grade;
 }

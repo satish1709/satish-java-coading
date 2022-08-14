@@ -23,5 +23,5 @@ public class Employee {
 	private Long salary;
 	private String city;
 	private String company;
-	private float grade;
+	private Double grade;
 }

@@ -9,21 +9,19 @@ import javax.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class Employee {
-
+@AllArgsConstructor
+@ToString
+public class Address {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	private String name;
-	private String dept;
-	private Long salary;
-	private String company;
-	private Double grade;
-	@OneToOne
-	private Address address;
+	private String area;
+	private String city;
+	private Long pinCode;
 }
